@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\alexander\desktop\forritunarmál\projects\project1\main.cpp
+	<iostream>
+
+1424025347 source:c:\users\alexander\desktop\forritunarmál\projects\project1\src\lexer.cpp
+	"Lexer.h"
+
+1424025769 c:\users\alexander\desktop\forritunarmál\projects\project1\include\lexer.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Token.h"
+
+1424025689 c:\users\alexander\desktop\forritunarmál\projects\project1\include\token.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+
+1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\src\parser.cpp
+	"Parser.h"
+
+1424025769 c:\users\alexander\desktop\forritunarmál\projects\project1\include\parser.h
+	<iostream>
+	<string>
+
+1424025689 source:c:\users\alexander\desktop\forritunarmál\projects\project1\src\compiler.cpp
+	<iostream>
+	<string>
+	"Lexer.h"
+	"Parser.h"
+	"Token.h"
+
+1424035172 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"Lexer.h"
+	"Parser.h"
+	"Token.h"
+
+1424035172 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Token.h"
+
+1424036717 c:\users\alexander\desktop\forritunarmál\projects\project1\token.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+
+1424025769 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
+	<iostream>
+	<string>
+
+1424037244 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
+	"Lexer.h"
+
+1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
+	"Parser.h"
+
