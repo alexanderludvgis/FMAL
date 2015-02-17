@@ -63,3 +63,34 @@
 1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
 	"Parser.h"
 
+1424184675 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\compiler.cpp
+	<iostream>
+	<string>
+	<fstream>
+	"Lexer.h"
+	"Parser.h"
+	"Token.h"
+
+1424184708 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	"Token.h"
+
+1424184325 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\token.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+
+1424098373 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.h
+	<iostream>
+	<string>
+
+1424184663 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.cpp
+	"Lexer.h"
+
+1424098373 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.cpp
+	"Parser.h"
+

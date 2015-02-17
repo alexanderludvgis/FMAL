@@ -25,6 +25,18 @@ int main() {
         myLexer.nextToken(result);
     }
 
+//    string str = "";
+//
+//    cout << "fyrsta stakid: " << result.at(0) << endl;
+//    while (isalpha(result.at(0))) {
+//        cout << "fyrsta stakid: " << result.at(0) << endl;
+//        str.push_back(result.at(0));
+//        result.erase(0,1);
+//        cout << "Result eftir eydslu: " << result << endl;
+//        cout << "Str: " << str << endl;
+//    }
+//    cout << "Result eftir while " << result << endl;
+
 
 	//Parser myParser = new Parser(myLexer);
 	//myParser.parse();
