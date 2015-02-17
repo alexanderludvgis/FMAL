@@ -53,7 +53,7 @@
 	<fstream>
 	<vector>
 
-1424190399 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
+1424207828 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
 	<iostream>
 	<string>
 	"Lexer.h"
@@ -64,7 +64,7 @@
 1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
 	"Parser.h"
 
-1424184675 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\compiler.cpp
+1424208266 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\compiler.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -85,13 +85,14 @@
 	<fstream>
 	<vector>
 
-1424098373 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.h
+1424205901 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.h
 	<iostream>
 	<string>
+	"Lexer.h"
 
 1424205614 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.cpp
 	"Lexer.h"
 
-1424098373 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.cpp
+1424207039 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.cpp
 	"Parser.h"
 

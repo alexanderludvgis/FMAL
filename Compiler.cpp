@@ -21,11 +21,8 @@ int main() {
 	}
 	cout << result << endl;
 
-    //TokenCode nextToken;
-
     while (!result.empty()) {
-//        nextToken = myLexer.nextToken(result);
-
+        myLexer.nextToken(result);
     }
 
 //    string str = "";
