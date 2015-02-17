@@ -21,8 +21,11 @@ int main() {
 	}
 	cout << result << endl;
 
+    //TokenCode nextToken;
+
     while (!result.empty()) {
-        myLexer.nextToken(result);
+//        nextToken = myLexer.nextToken(result);
+
     }
 
 //    string str = "";
@@ -38,7 +41,7 @@ int main() {
 //    cout << "Result eftir while " << result << endl;
 
 
-	//Parser myParser = new Parser(myLexer);
+    //Parser myParser = new Parser(myLexer);
 	//myParser.parse();
 
 

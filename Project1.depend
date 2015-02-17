@@ -32,7 +32,7 @@
 	"Parser.h"
 	"Token.h"
 
-1424182914 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
+1424189990 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -40,24 +40,25 @@
 	"Parser.h"
 	"Token.h"
 
-1424182398 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
+1424185910 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
 	<iostream>
 	<string>
 	<fstream>
 	<vector>
 	"Token.h"
 
-1424036717 c:\users\alexander\desktop\forritunarmál\projects\project1\token.h
+1424185352 c:\users\alexander\desktop\forritunarmál\projects\project1\token.h
 	<iostream>
 	<string>
 	<fstream>
 	<vector>
 
-1424025769 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
+1424190399 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
 	<iostream>
 	<string>
+	"Lexer.h"
 
-1424182737 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
+1424186348 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
 	"Lexer.h"
 
 1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
@@ -71,14 +72,14 @@
 	"Parser.h"
 	"Token.h"
 
-1424184708 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.h
+1424207035 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.h
 	<iostream>
 	<string>
 	<fstream>
 	<vector>
 	"Token.h"
 
-1424184325 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\token.h
+1424205613 c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\token.h
 	<iostream>
 	<string>
 	<fstream>
@@ -88,7 +89,7 @@
 	<iostream>
 	<string>
 
-1424184663 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.cpp
+1424205614 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\lexer.cpp
 	"Lexer.h"
 
 1424098373 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\parser.cpp

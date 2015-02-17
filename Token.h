@@ -8,6 +8,7 @@
 
 using namespace std;	// has to be included so "string" variable works.
 
+//ID = 0, ..., ERROR = 10
 enum TokenCode {
 	ID, ASSIGN, SEMICOL, INT, PLUS, MINUS,
 	MULT, LPAREN, RPAREN, PRINT, END, ERROR
