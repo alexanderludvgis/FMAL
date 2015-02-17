@@ -21,8 +21,16 @@ class Parser
     protected:
     private:
         void parse(string, TokenCode);
+        void statements(TokenCode);
+        void statement(TokenCode);
+        void expr(TokenCode);
+        void term(TokenCode);
+        void factor(TokenCode);
+
+
         string lexer;
         TokenCode token;
+
 };
 
 #endif // PARSER_H
