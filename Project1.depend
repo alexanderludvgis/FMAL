@@ -32,7 +32,7 @@
 	"Parser.h"
 	"Token.h"
 
-1424035172 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
+1424182914 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -40,7 +40,7 @@
 	"Parser.h"
 	"Token.h"
 
-1424035172 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
+1424182398 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
 	<iostream>
 	<string>
 	<fstream>
@@ -57,7 +57,7 @@
 	<iostream>
 	<string>
 
-1424037244 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
+1424182737 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
 	"Lexer.h"
 
 1424024603 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp

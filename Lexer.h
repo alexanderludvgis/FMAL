@@ -16,7 +16,7 @@ class Lexer : public Token
         virtual ~Lexer();
 
         // scans stdin and looks for a match of tokens in TokenCode
-        Token nextToken();
+        Token nextToken(string);
 
 
     protected:
