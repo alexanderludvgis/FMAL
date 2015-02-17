@@ -10,7 +10,7 @@ Lexer::~Lexer()
     //dtor
 }
 
-Token Lexer::nextToken(string result)
+Token Lexer::nextToken(string& result)
 {
   /*
     //open file
@@ -20,9 +20,7 @@ Token Lexer::nextToken(string result)
 	string result;
 	while (inFile >> c) {
         result.push_back(c);
-
 	}
-
 	cout << result << endl;
 */
 
