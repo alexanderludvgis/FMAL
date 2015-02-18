@@ -32,7 +32,7 @@
 	"Parser.h"
 	"Token.h"
 
-1424215832 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
+1424271664 source:c:\users\alexander\desktop\forritunarmál\projects\project1\compiler.cpp
 	<iostream>
 	<string>
 	<fstream>
@@ -40,7 +40,7 @@
 	"Parser.h"
 	"Token.h"
 
-1424215982 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
+1424298973 c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.h
 	<iostream>
 	<string>
 	<fstream>
@@ -53,15 +53,16 @@
 	<fstream>
 	<vector>
 
-1424215793 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
+1424301841 c:\users\alexander\desktop\forritunarmál\projects\project1\parser.h
 	<iostream>
 	<string>
+	<stdlib.h>
 	"Lexer.h"
 
-1424215991 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
+1424299375 source:c:\users\alexander\desktop\forritunarmál\projects\project1\lexer.cpp
 	"Lexer.h"
 
-1424215793 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
+1424301651 source:c:\users\alexander\desktop\forritunarmál\projects\project1\parser.cpp
 	"Parser.h"
 
 1424208266 source:c:\users\geir\dropbox\tölvunarfræði\vor2015\forritunarmal\verkefni\assignment_2\fmal\compiler.cpp

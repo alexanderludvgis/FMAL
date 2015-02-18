@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <stdlib.h>
 #include "Lexer.h"
 
 using namespace std;	// has to be included so "string" variable works.
@@ -26,6 +27,7 @@ class Parser
         void expr();
         void term();
         void factor();
+        void error();
 
 
         Lexer the_lexer;

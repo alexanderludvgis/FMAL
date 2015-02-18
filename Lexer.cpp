@@ -2,16 +2,8 @@
 
 Lexer::Lexer()
 {
-    //open file
-	ifstream inFile("test.txt");
-
-	char c;
-	string result;
-	while (inFile >> c) {
-        result.push_back(c);
-	}
-	cout << result << endl;
-	the_result = result;
+	result = input_string();
+	myToken = Token();
 }
 
 Lexer::~Lexer()
@@ -19,16 +11,28 @@ Lexer::~Lexer()
     //dtor
 }
 
+string Lexer::input_string(){
+    string input = "";
 
-Token Lexer::nextToken() {
-    return nextTokenHelp(the_result);
+	while (!cin.eof()) {
+		getline(cin, input);
+		if (cin.fail()) {
+            break;
+		}
+        result += input;
+	}
+
+	for (unsigned int i = 0; i < result.length(); i++){
+		if (result[i] == ' ')
+			result.erase(i, 1);
+	}
+
+	return result;
+
 }
 
-
-Token Lexer::nextTokenHelp(string result)
+Token Lexer::nextToken()
 {
-    Token myToken = Token();
-
     //if END
 	if (result.at(0) == 'e') {
         if (result.at(1) == 'n') {
@@ -126,7 +130,7 @@ Token Lexer::nextTokenHelp(string result)
         myToken.tCode = ERROR;
     }
 
-    cout << "lexeme: " << myToken.lexeme << " tCode: " << myToken.tCode << endl;
+   // cout << "lexeme: " << myToken.lexeme << " tCode: " << myToken.tCode << endl;
 	return myToken;
 }
 
