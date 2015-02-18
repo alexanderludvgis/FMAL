@@ -19,11 +19,14 @@ class Lexer : public Token
         //takes an input, ignores whitespaces and newlines and then trims it down.
         //has to be call by reference else we'll get a copy of the string
         //we are working with which we don't want
-        Token nextToken(string&);
 
+        Token nextToken();
 
     protected:
+
     private:
+        string the_result;
+        Token nextTokenHelp(string);
 };
 
 #endif // LEXER_H

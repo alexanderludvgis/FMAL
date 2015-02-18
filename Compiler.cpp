@@ -10,7 +10,9 @@ using namespace std;	// has to be included so "string" variable works.
 int main() {
 
     Lexer myLexer = Lexer();
+    myLexer.nextToken();
 
+/*
    //open file
 	ifstream inFile("test.txt");
 
@@ -24,18 +26,7 @@ int main() {
     while (!result.empty()) {
         myLexer.nextToken(result);
     }
-
-//    string str = "";
-//
-//    cout << "fyrsta stakid: " << result.at(0) << endl;
-//    while (isalpha(result.at(0))) {
-//        cout << "fyrsta stakid: " << result.at(0) << endl;
-//        str.push_back(result.at(0));
-//        result.erase(0,1);
-//        cout << "Result eftir eydslu: " << result << endl;
-//        cout << "Str: " << str << endl;
-//    }
-//    cout << "Result eftir while " << result << endl;
+*/
 
 
     //Parser myParser = new Parser(myLexer);

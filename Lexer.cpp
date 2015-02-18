@@ -2,17 +2,6 @@
 
 Lexer::Lexer()
 {
-    //ctor
-}
-
-Lexer::~Lexer()
-{
-    //dtor
-}
-
-Token Lexer::nextToken(string& result)
-{
-  /*
     //open file
 	ifstream inFile("test.txt");
 
@@ -22,8 +11,22 @@ Token Lexer::nextToken(string& result)
         result.push_back(c);
 	}
 	cout << result << endl;
-*/
+	the_result = result;
+}
 
+Lexer::~Lexer()
+{
+    //dtor
+}
+
+
+Token Lexer::nextToken() {
+    return nextTokenHelp(the_result);
+}
+
+
+Token Lexer::nextTokenHelp(string result)
+{
     Token myToken = Token();
 
     //if END

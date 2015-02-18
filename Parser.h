@@ -18,18 +18,18 @@ class Parser
 
         void parse();
 
+
     protected:
     private:
-        void parse(string, TokenCode);
-        void statements(TokenCode);
-        void statement(TokenCode);
-        void expr(TokenCode);
-        void term(TokenCode);
-        void factor(TokenCode);
+        void statements();
+        void statement();
+        void expr();
+        void term();
+        void factor();
 
 
-        string lexer;
-        TokenCode token;
+        Lexer the_lexer;
+        Token the_token;
 
 };
 
