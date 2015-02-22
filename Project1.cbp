@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="Compiler.cpp" />
+		<Unit filename="Interpreter.cpp" />
 		<Unit filename="Lexer.cpp" />
 		<Unit filename="Lexer.h" />
 		<Unit filename="Parser.cpp" />
